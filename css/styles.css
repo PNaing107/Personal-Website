@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "lato", sans-serif;
+    background: radial-gradient(ellipse at bottom, #0c1116 0%, #090a0f 100%);
+}
+
+/*Top Banner*/
+h1, h2 {
+    display: inline;
+    color: #FFFFFF;
+    font-weight: 300;
+    /*text-decoration: underline;*/
+}
+
+#pn-logo {
+    width: 5rem;
+}
+
+#top-banner {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+}
