@@ -41,7 +41,7 @@
     mix-blend-mode: overlay;
     transform: skewX(10deg) skewY(-10deg);
     box-shadow: 11.8342104933vw 107.414042403vh currentColor, 10.7808097348vw 48.1224552117vh currentColor, 13.0892859558vw 43.943498687vh currentColor, 20.3482022281vw 106.7225718909vh currentColor, 14.2530555995vw 65.7193012272vh currentColor, 4.8969564995vw 35.9197841799vh currentColor, 6.6246527784vw 102.0114493984vh currentColor, 7.3932036788vw 58.4922357314vh currentColor, 5.7062578279vw 9.7890390966vh currentColor, 6.2513824179vw 71.6071247217vh currentColor, 5.6803241204vw 2.0002850429vh currentColor, 5.6666563232vw 37.6413279958vh currentColor, 11.4323480789vw 24.6425588638vh currentColor, 13.7296968254vw 21.2648825408vh currentColor, 19.1145246953vw 54.9109069602vh currentColor, 13.0626762525vw 32.95398038vh currentColor, 20.8372866292vw 53.5747021945vh currentColor, 15.9900345346vw 22.8314313157vh currentColor, 4.3902351254vw 107.8450377668vh currentColor, 3.9074153786vw 5.8906167053vh currentColor, 0.7551236585vw 39.481400762vh currentColor, 1.4703734175vw 52.5904710807vh currentColor, 11.4799094923vw 9.5066049978vh currentColor, 4.6971639583vw 100.6100737066vh currentColor, 12.1575607655vw 24.8594949157vh currentColor, 6.8307481705vw 57.7682869611vh currentColor, 3.4175839249vw 79.4001272889vh currentColor, 17.8217592726vw 60.2254223233vh currentColor, 10.1870820239vw 39.7473840939vh currentColor, 13.8722203686vw 16.4396653152vh currentColor, 0.6174469972vw 40.1432079474vh currentColor, 0.9393152301vw 101.4827738602vh currentColor, 6.4673311447vw 48.3582883024vh currentColor, 18.9583128846vw 77.5910028973vh currentColor, 2.1912245882vw 14.9159748682vh currentColor, 6.5434244639vw 81.1920092728vh currentColor, 15.9380719597vw 43.2453771517vh currentColor, 17.9492234287vw 101.707694356vh currentColor, 20.1306051944vw 28.6877919506vh currentColor, 4.8149734282vw 1.4888467431vh currentColor, 16.3622876146vw 26.2552865153vh currentColor, 19.8713813517vw 31.0812950804vh currentColor, 22.889524333vw 83.1572936349vh currentColor, 1.263345578vw 58.597290558vh currentColor, 20.4730580108vw 59.002344127vh currentColor, 7.8038778288vw 54.7528084534vh currentColor, 6.9165153541vw 52.3375620232vh currentColor, 8.9360511449vw 17.7497744069vh currentColor, 23.4572865122vw 101.3091069685vh currentColor, 12.7745641854vw 0.4521252619vh currentColor, 9.3865353375vw 54.6287046262vh currentColor, 1.4663624752vw 105.8679414125vh currentColor, 10.7331374348vw 20.5086329366vh currentColor, 15.7606797623vw 40.5469205448vh currentColor, 3.1572448449vw 7.7917435031vh currentColor, 15.7666543017vw 87.2184844971vh currentColor, 1.8667523186vw 62.4227306566vh currentColor, 20.8525989914vw 96.4871147239vh currentColor, 17.7511026375vw 86.6521201796vh currentColor, 7.4314307091vw 70.8819524136vh currentColor, 10.5541191223vw 65.8849941334vh currentColor, 6.5760870766vw 57.5185976488vh currentColor, 3.7753913008vw 54.4277702711vh currentColor, 8.2984463683vw 107.1558856183vh currentColor, 5.9654771572vw 61.8903060501vh currentColor, 3.0776386781vw 6.8619740007vh currentColor, 13.1486261833vw 33.4133875694vh currentColor, 9.7296233107vw 22.0941169957vh currentColor, 16.4661539299vw 71.9101329297vh currentColor, 21.7184149808vw 82.3890728748vh currentColor, 18.5712827442vw 7.2254906379vh currentColor, 11.0983725781vw 20.0696176447vh currentColor, 2.4662975659vw 32.288863502vh currentColor, 3.0752936068vw 32.4047304113vh currentColor, 7.5265278493vw 107.0476644549vh currentColor, 16.7109992182vw 24.3035901157vh currentColor, 2.6354113088vw 107.5461525303vh currentColor, 12.302586386vw 67.3139468828vh currentColor, 0.1135930601vw 108.8242616727vh currentColor, 19.8602528735vw 37.3360077483vh currentColor, 5.4847956661vw 107.9794283495vh currentColor, 8.3185346947vw 53.4108689002vh currentColor, 7.5498869904vw 73.2070572842vh currentColor, 22.7299965463vw 65.9985928976vh currentColor, 4.5001140649vw 48.3006227627vh currentColor, 3.416657368vw 105.6182925432vh currentColor, 7.7718645126vw 63.3191274885vh currentColor, 15.4941127843vw 38.2252260232vh currentColor, 22.1826388564vw 2.1532206475vh currentColor, 5.6627852766vw 78.0108923851vh currentColor, 22.0759494349vw 73.4630842869vh currentColor, 21.2317553276vw 94.5434789682vh currentColor, 19.2306422772vw 91.4133513159vh currentColor, 9.8915399288vw 73.7524176547vh currentColor, 15.9179089076vw 18.9711448486vh currentColor, 1.6063317783vw 22.1731461673vh currentColor, 6.4355023757vw 9.091536227vh currentColor, 16.2535618171vw 82.2790576549vh currentColor, 6.0893940037vw 4.1958531409vh currentColor, 11.6465516883vw 5.6507844023vh currentColor;
-    transform: translateX(calc(var(--mouse-x) * .01px));
+    /*transform: translateX(calc(var(--mouse-x) * .01px));*/
 }
 
 .stars {
@@ -58,7 +58,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.5);
     height: 3px;
     width: 3px;
     filter: blur(0.5px);
@@ -75,7 +75,7 @@
 }
 
 .stars:nth-child(1) {
-    transform: translateX(calc(var(--mouse-x) * 1 * .005px)) translateY(calc(var(--mouse-y) * 1 * .005px));
+    /*transform: translateX(calc(var(--mouse-x) * 1 * .005px)) translateY(calc(var(--mouse-y) * 1 * .005px));*/
 }
 
 .stars:nth-child(1):before {
@@ -87,7 +87,7 @@
 }
 
 .stars:nth-child(2) {
-    transform: translateX(calc(var(--mouse-x) * 2 * .005px)) translateY(calc(var(--mouse-y) * 2 * .005px));
+    /*transform: translateX(calc(var(--mouse-x) * 2 * .005px)) translateY(calc(var(--mouse-y) * 2 * .005px));*/
 }
 
 .stars:nth-child(2):before {
@@ -99,7 +99,7 @@
 }
 
 .stars:nth-child(3) {
-    transform: translateX(calc(var(--mouse-x) * 3 * .005px)) translateY(calc(var(--mouse-y) * 3 * .005px));
+    /*transform: translateX(calc(var(--mouse-x) * 3 * .005px)) translateY(calc(var(--mouse-y) * 3 * .005px));*/
 }
 
 .stars:nth-child(3):before {
@@ -111,7 +111,7 @@
 }
 
 .stars:nth-child(4) {
-    transform: translateX(calc(var(--mouse-x) * 4 * .005px)) translateY(calc(var(--mouse-y) * 4 * .005px));
+    /*transform: translateX(calc(var(--mouse-x) * 4 * .005px)) translateY(calc(var(--mouse-y) * 4 * .005px));*/
 }
 
 .stars:nth-child(4):before {
@@ -123,7 +123,7 @@
 }
 
 .stars:nth-child(5) {
-    transform: translateX(calc(var(--mouse-x) * 5 * .005px)) translateY(calc(var(--mouse-y) * 5 * .005px));
+    /*transform: translateX(calc(var(--mouse-x) * 5 * .005px)) translateY(calc(var(--mouse-y) * 5 * .005px));*/
 }
 
 .stars:nth-child(5):before {
@@ -524,6 +524,7 @@ body, html {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: "lato", sans-serif;
 }
 
 *, *:before, *:after {
@@ -534,4 +535,21 @@ body, html {
 *:before, *:after {
     content: "";
     display: block;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-top: 1rem;
+    text-shadow: 0 0 1rem #FFFFFF;
+}
+
+#pn-logo {
+    width: 4rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 0.8rem;
 }
