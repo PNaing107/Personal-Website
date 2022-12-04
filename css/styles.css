@@ -537,6 +537,13 @@ body, html {
     display: block;
 }
 
+/*Top Banner*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1, h2 {
     text-align: center;
     color: #FFFFFF;
@@ -547,9 +554,34 @@ h1, h2 {
 
 #pn-logo {
     width: 4rem;
+}
+
+/*Welcome animation*/
+#welcome {
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    margin-bottom: 0.8rem;
+    font-weight: 300;
+    bottom: 46%;
+    left: 0;
+    right: 0;
+    font-size: 4rem;
+    text-align: center;
+    background: -webkit-linear-gradient(white, #dbdde0, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-name: animGravity;
+}
+
+@keyframes animGravity {
+    from {
+        transform: translateY(-1rem);
+        opacity: 0;
+        letter-spacing: 0.4rem;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
