@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Exo;
+    src: url(../assets/fonts/Exo-Variable.ttf);
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    position: relative;
+}
+
+html {
+    height: 100%;
+}
+body {
+    background: #0D2233;
+    font-family: "Exo","Lato", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    min-height: 100%;
+}
+
+.brain-container {
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto;
+    -webkit-mask-image: url("../assets/brain.svg");
+    -webkit-mask-size: 10rem 10rem;
+    background: linear-gradient(0deg, #5CD66B 0%, #61dbfb 50%, #5CD66B 100%);
+    background-size: 100% 200%;
+    -webkit-animation: shine 6s linear infinite;
+    animation: shine 6s linear infinite;
+}
+
+img {
+    width: 10rem;
+    height: auto;
+}
+
+.animated-gradient {
+    text-align: center;
+    background: linear-gradient(0deg, #5CD66B 0%, #61dbfb 50%, #5CD66B 100%);
+    background-size: 100% 200%;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: shine 6s linear infinite;
+    animation: shine 6s linear infinite;
+}
+
+@-webkit-keyframes shine {
+    to {
+        background-position: 0 0;
+    }
+}
+@keyframes shine {
+    to {
+        background-position: 0 -200%;
+    }
+}
+
+
+/*Glasscards*/
+.glass {
+    backdrop-filter: blur(3px) saturate(102%);
+    -webkit-backdrop-filter: blur(3px) saturate(102%);
+    background-color: rgba(17, 25, 40, 0.44);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 0.8rem;
+}
+
+.main, .post-container {
+    margin: 0 1rem;
+}
+
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 18rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    margin: 0;
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.25);
+}
