@@ -34,9 +34,25 @@ a:active {
     font-weight: inherit;
 }
 
-#about, #blog {
+#about,
+#blog,
+#projects {
     display: flex;
     justify-content: space-between;
+}
+
+#projects {
+    margin-bottom: 5rem;
+}
+
+.temp-banner {
+    font-size: 4rem;
+    text-align: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .left-col,
@@ -45,10 +61,6 @@ a:active {
     flex-direction: column;
     align-items: center;
 }
-
-/* .right-col {
-    margin: 0 0.5rem;
-} */
 
 .line {
     width: 0.3rem;
@@ -126,13 +138,11 @@ h3, .h2 {
     justify-content: center;
     line-height: 1em;
     max-width: 100%;
-    /* min-width: 140px; */
     padding: 3px;
     text-decoration: none;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    /* white-space: nowrap; */
 }
 
 .style-64 div {
