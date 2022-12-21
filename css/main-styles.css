@@ -34,7 +34,7 @@ a:active {
     font-weight: inherit;
 }
 
-#about {
+#about, #blog {
     display: flex;
     justify-content: space-between;
 }
