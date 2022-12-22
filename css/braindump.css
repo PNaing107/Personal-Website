@@ -3,13 +3,12 @@
     src: url(../assets/fonts/Exo-Variable.ttf);
 }
 
-*, *:before, *:after {
-    box-sizing: border-box;
-    /* position: relative; */
+:root {
+    --light-green: #93BE76;
 }
 
-html {
-    height: 100%;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
 body {
@@ -17,7 +16,7 @@ body {
     font-family: "Exo","Lato", sans-serif;
     color: #FFFFFF;
     text-align: center;
-    min-height: 100%;
+    width: 100vw;
 }
 
 .brain-container {
@@ -71,22 +70,28 @@ a.style-28 {
     -webkit-user-select: none;
     touch-action: manipulation;
     will-change: transform;
-  }
-  
-  .style-28:disabled {
-    pointer-events: none;
-  }
-  
-  .style-28:hover {
-    background-color: var(--light-green);
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-    transform: translateY(-2px);
-  }
-  
-  .style-28:active {
-    box-shadow: none;
-    transform: translateY(0);
-  }
+}
+
+.style-28:disabled {
+pointer-events: none;
+}
+
+.style-28:hover {
+background-color: var(--light-green);
+box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+transform: translateY(-2px);
+}
+
+.style-28:active {
+box-shadow: none;
+transform: translateY(0);
+}
+
+label {
+    font-weight: bold;
+    font-size: large;
+    margin-right: 0.5rem;
+}
 
 footer {
     display: flex;
@@ -135,8 +140,9 @@ div.last {
     -webkit-backdrop-filter: blur(3px) saturate(102%);
     background-color: rgba(17, 25, 40, 0.44);
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    border: 3px solid rgba(255, 255, 255, 0.25);
     padding: 0.8rem;
+    box-shadow: 0 0 8px 4px #5CD66B;
 }
 
 .main, .post-container {
@@ -144,10 +150,15 @@ div.last {
     line-height: 1.5;
 }
 
+form {
+    margin: 1rem 0;
+}
+
 .post-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .card {
