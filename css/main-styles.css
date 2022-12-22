@@ -27,6 +27,10 @@ body {
     line-height: 1.4;
 }
 
+.last {
+    margin-bottom: 6rem;
+}
+
 a,
 a:link,
 a:visited,
@@ -49,6 +53,12 @@ a:active {
 #projects {
     display: flex;
     justify-content: space-between;
+}
+
+.centre-blog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #projects {
@@ -148,7 +158,7 @@ h3, .h2 {
     margin: 0 1ch;
 }
 
-.style-28 {
+a.style-28 {
   appearance: none;
   background-color: transparent;
   border: 2px solid #fff;
@@ -210,6 +220,10 @@ h3, .h2 {
     padding: 1rem;
     border-radius: 0.4rem;
     width: 100%;
+}
+
+header {
+    text-align: center;
 }
 
 footer {
