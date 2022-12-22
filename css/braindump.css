@@ -87,6 +87,11 @@ box-shadow: none;
 transform: translateY(0);
 }
 
+.underline {
+    text-decoration: underline solid var(--light-green);
+    text-underline-offset: 0.3rem;
+}
+
 label {
     font-weight: bold;
     font-size: large;
