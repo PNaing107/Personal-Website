@@ -5,12 +5,13 @@
 
 *, *:before, *:after {
     box-sizing: border-box;
-    position: relative;
+    /* position: relative; */
 }
 
 html {
     height: 100%;
 }
+
 body {
     background: #0D2233;
     font-family: "Exo","Lato", sans-serif;
@@ -47,6 +48,73 @@ img {
     -webkit-text-fill-color: transparent;
     -webkit-animation: shine 6s linear infinite;
     animation: shine 6s linear infinite;
+}
+
+a.style-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 0.8rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 1rem;
+    outline: none;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+  }
+  
+  .style-28:disabled {
+    pointer-events: none;
+  }
+  
+  .style-28:hover {
+    background-color: var(--light-green);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .style-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: inherit;
+}
+
+div.last {
+    margin-bottom: 6.5rem;
+}
+
+#pn-logo {
+    width: 14%;
+    max-width: 5rem;
+    margin-top: 0.5rem;
+}
+
+.fa-brands {
+    color: #fff;
+}
+
+.fa-brands:hover {
+    color: var(--light-green);
 }
 
 @-webkit-keyframes shine {
