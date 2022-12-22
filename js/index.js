@@ -23,77 +23,77 @@ const posts = [
     {
         id: '02',
         title: 'Building a Portfolio Website',
-        link: './week1.html'
+        link: './week2.html'
     },
     {
         id: '03',
         title: 'Introduction to Programming',
-        link: './week1.html'
+        link: './week3.html'
     },
     {
         id: '04',
         title: 'Programming Best Practices',
-        link: './week1.html'
+        link: './week4.html'
     },
     {
         id: '05',
         title: 'Building a Collection App',
-        link: './week1.html'
+        link: './week5.html'
     },
     {
         id: '06',
         title: 'Introduction to Javascript',
-        link: './week1.html'
+        link: './week6.html'
     },
     {
         id: '07',
         title: 'Building a Game with Javascript',
-        link: './week1.html'
+        link: './week7.html'
     },
     {
         id: '08',
         title: 'Frontend Tools',
-        link: './week1.html'
+        link: './week8.html'
     },
     {
         id: '09',
         title: 'Building a Frontend with React & Bootstrap',
-        link: './week1.html'
+        link: './week9.html'
     },
     {
         id: '10',
         title: 'Advanced Programming Principles',
-        link: './week1.html'
+        link: './week10.html'
     },
     {
         id: '11',
         title: 'Building a Backend with PHP',
-        link: './week1.html'
+        link: './week11.html'
     },
     {
         id: '12',
         title: 'MVC & PHP Frameworks',
-        link: './week1.html'
+        link: './week12.html'
     },
     {
         id: '13',
         title: 'Working with Legacy Code & Green Software Development',
-        link: './week1.html'
+        link: './week13.html'
     },
     {
         id: '14',
         title: 'Node.js',
-        link: './week1.html'
+        link: './week14.html'
     },
     {
         id: '15',
         title: 'Levelling Up React',
-        link: './week1.html'
+        link: './week15.html'
     },
     {
         id: '16',
         title: 'Showcase Project',
-        link: './week1.html'
+        link: './week16.html'
     }
 ];
 
