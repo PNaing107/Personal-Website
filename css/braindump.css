@@ -3,20 +3,26 @@
     src: url(../assets/fonts/Exo-Variable.ttf);
 }
 
-*, *:before, *:after {
-    box-sizing: border-box;
-    position: relative;
+:root {
+    --light-green: #93BE76;
 }
 
-html {
-    height: 100%;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
+
 body {
     background: #0D2233;
     font-family: "Exo","Lato", sans-serif;
     color: #FFFFFF;
-    text-align: center;
-    min-height: 100%;
+    /* text-align: center; */
+    width: 100vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+ul {
+    text-align: left;
 }
 
 .brain-container {
@@ -32,8 +38,12 @@ body {
 }
 
 img {
-    width: 10rem;
+    width: 100%;
     height: auto;
+}
+
+#writers-block {
+    max-width: 1024px;
 }
 
 .animated-gradient {
@@ -47,6 +57,93 @@ img {
     -webkit-text-fill-color: transparent;
     -webkit-animation: shine 6s linear infinite;
     animation: shine 6s linear infinite;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    color: var(--light-green);
+    text-decoration: underline solid;
+    font-weight: inherit;
+}
+
+a.style-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 0.8rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 1rem;
+    outline: none;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+.style-28:disabled {
+pointer-events: none;
+}
+
+.style-28:hover {
+background-color: var(--light-green);
+box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+transform: translateY(-2px);
+}
+
+.style-28:active {
+box-shadow: none;
+transform: translateY(0);
+}
+
+.underline {
+    text-decoration: underline solid var(--light-green);
+    text-underline-offset: 0.3rem;
+}
+
+label {
+    font-weight: bold;
+    font-size: large;
+    margin-right: 0.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: inherit;
+}
+
+div.last {
+    margin-bottom: 6.5rem;
+}
+
+#pn-logo {
+    width: 14%;
+    max-width: 5rem;
+    margin-top: 0.5rem;
+}
+
+.fa-brands {
+    color: #fff;
+}
+
+.fa-brands:hover {
+    color: var(--light-green);
 }
 
 @-webkit-keyframes shine {
@@ -67,8 +164,9 @@ img {
     -webkit-backdrop-filter: blur(3px) saturate(102%);
     background-color: rgba(17, 25, 40, 0.44);
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    border: 3px solid rgba(255, 255, 255, 0.25);
     padding: 0.8rem;
+    box-shadow: 0 0 8px 4px #5CD66B;
 }
 
 .main, .post-container {
@@ -76,10 +174,15 @@ img {
     line-height: 1.5;
 }
 
+form {
+    margin: 1rem 0;
+}
+
 .post-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -95,4 +198,17 @@ h3 {
     margin: 0;
     font-size: 4rem;
     color: rgba(255, 255, 255, 0.25);
+}
+
+@media only screen and (min-width: 768px) {
+    .controls {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .last {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

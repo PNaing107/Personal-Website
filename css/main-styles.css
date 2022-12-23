@@ -1,0 +1,284 @@
+@font-face {
+    font-family: Exo;
+    src: url(../assets/fonts/Exo-Variable.ttf);
+}
+
+:root {
+    --light-green: #93BE76;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    /* outline: 1px solid red !important; */
+}
+  
+img {
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+}
+
+body {
+    background:#041628;
+    font-family: "Exo", "Lato", sans-serif;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1.4;
+}
+
+.last {
+    margin-bottom: 6rem;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    color: #00DDEB;
+    text-decoration: underline solid;
+    font-weight: inherit;
+}
+
+.fa-brands {
+    color: #fff;
+}
+
+.fa-brands:hover {
+    color: var(--light-green);
+}
+
+#about,
+#blog,
+#projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.centre-blog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects {
+    margin-bottom: 5rem;
+}
+
+.temp-banner {
+    font-size: 4rem;
+    text-align: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.left-col,
+.right-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    width: 0.3rem;
+    flex-grow: 1;
+    background-color: var(--light-green);
+}
+
+h2 {
+    color: var(--light-green);
+}
+
+h3 {
+    border-bottom: 2px solid var(--light-green);
+}
+
+h3, .h2 {
+    margin: 1.5rem 0;
+}
+
+.h2 {
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    border-radius: 1.5rem;
+    box-shadow:
+    0 0 1rem 0.5rem var(--light-green);
+}
+
+.h2 i {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+#mm-flag {
+    width: 2em;
+}
+
+.emoji {
+    font-size: x-large;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-card-header {
+    display: flex;
+    align-items: center;
+}
+
+.skills-card-header h4 {
+    margin-left: 2rem;
+}
+
+.skills-card-header .fe {
+    margin-left: 1.5rem;
+}
+
+.no-list-style {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.blog-card {
+    text-align: center;
+}
+
+.tags {
+    display: flex;
+}
+
+.tags p {
+    margin: 0 1ch;
+}
+
+a.style-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 0.8rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 1rem;
+  outline: none;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.style-28:disabled {
+  pointer-events: none;
+}
+
+.style-28:hover {
+  background-color: var(--light-green);
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.style-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/*Modal Buttons*/
+.style-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    color: #FFFFFF;
+    margin: 1rem;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.style-64 div {
+    background-color: rgb(5, 6, 45);
+    padding: 1rem;
+    border-radius: 0.4rem;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: inherit;
+}
+
+#pn-logo {
+    width: 14%;
+    max-width: 5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .style-64 {
+        font-size: 24px;
+    }
+
+    .right-col {
+        margin: 0 auto;
+    }
+
+    #projects {
+        margin-bottom: 6rem;
+    }
+
+    a.style-28 {
+        display: block;
+        width: 20rem;
+        margin: 1rem auto;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .style-64 {
+        font-size: 24px;
+    }
+
+    #about, 
+    #blog, 
+    #projects {
+        justify-content: flex-start;
+    }
+
+    .skills-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    p {
+        text-align: center;
+    }
+}
