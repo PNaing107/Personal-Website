@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="../../css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../../css/braindump.css" rel="stylesheet" type="text/css">
+    <title>Phone Naing</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/light-green-icon.png" />
+    <script src="https://kit.fontawesome.com/59624a24a9.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <h1 class="animated-gradient">Bootcamp Braindumps</h1>
+    <div class="brain-container"></div>
+    <div class="controls">
+        <a class="style-28" href="../../main.html">Back to Home</a>
+        <a class="style-28" href="./braindumps.html">Read another Braindump</a>
+    </div>
+    <hr>
+    <div class="blog-post last">
+            <h2 class="underline">Week 12: Career Advice, MVC & PHP Frameworks</h2>
+            <p>
+                This week started off with a Careers day. Mike, the lead trainer at iO Academy, 
+                gave us advice on how to write a CV tailored towards developer roles, 
+                apply for jobs and what to expect during the interview process. 
+                Although I was in the extremely lucky position of having already secured a job upon completion of the bootcamp, 
+                I found his advice very helpful. 
+                Here are the main takeaways I got:
+            </p>
+            <ul>
+                <li>
+                    Keep the design of the CV consistent with your portfolio website
+                </li>
+                <li>
+                    Get a separate email address and mobile number solely for work 
+                    (unless you want to run the risk having your personal inbox bombarded with messages from recruiters)
+                </li>
+                <li>
+                    The “About Me” section is key to making your CV stand out. Employers care about your interests, 
+                    especially for entry level roles. They are looking for someone with a genuine passion for programming and proven ability to work effectively in a team so try to highlight these traits. 
+                    Don’t overshare though as you want to give them the opportunity to ask follow up questions in the interview
+                </li>
+                <li>
+                    Don’t give yourself a label like "Junior" or  "Senior" Developer as different companies have different 
+                    requirements for what those labels are
+                </li>
+                <li>
+                    Don’t rate your skills. What does a 7/10 in Javascript even mean?
+                </li>
+                <li>
+                    Don’t open yourself up to discrimination. <strong>This is a big one.</strong>  Everyone can think in a way that involves unconscious bias at some point. 
+                    Whilst it is almost impossible to eradicate, you can reduce your chances by excluding your date of birth, specific address of residence and a photo of yourself from the CV
+                </li>
+                <li>
+                    When applying direct, always send a covering letter and make it specific to the company
+                </li>
+                <li>
+                    Agencies vs Software as a Service (SaaS). These are the 2 main types of companies you will encounter as a developer. 
+                    In general these are the main differences between the 2 types:
+                    <ul>
+                        <li>
+                            Agencies tend to have shorter project deadlines so the focus is on speed over quality
+                        </li>
+                        <li>
+                            They might work with a range of clients which might increase the variety of work and allow you to work with “cutting edge” tech
+                        </li>
+                        <li>
+                            SaaS companies tend to be more focused and have longer-term roadmaps
+                        </li>
+                        <li>
+                            SaaS companies tend to prioritise code quality over speed
+                        </li>
+                        <li>
+                            Generally speaking, compensation will be better at a SaaS company
+                        </li>
+                    </ul>
+                    When searching for companies, think about which style of work suits you better. 
+                    It can be difficult to switch from one to the other.
+                </li>
+                <li>
+                    Every company has a different application process. The most common is a 3 stage process consisting of:
+                    <ol>
+                        <li>
+                            Initial interview - basic technical questions, usually with at least 1 developer
+                        </li>
+                        <li>
+                            Technical test
+                        </li>
+                        <li>
+                            Final interview - personality based, usually with Lead Developer/CTO/Director
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    Preparation is the key to success for all 3 stages. For the interview you should have a 
+                    basic understanding of what the company does and have questions about the role you are applying for. 
+                    Be honest, if you don’t know the answer just say so. Instead you could also talk about how you would 
+                    find the answer / what you do know related to the question instead
+                </li>
+                <li>
+                    Ask for feedback after the interview - it's a learning experience!
+                </li>
+            </ul>
+            <p>
+                Tuesday, Wednesday and Thursday were standard theory days. We covered the Model View Controller (MVC) architecture. 
+                This is a widely adopted approach when building a Web App and involves separating the application into 3 distinct parts. 
+                The Model is the layer that interacts with data storage (typically a database). The view is the output (i.e. what the end user will see) which is typically in 
+                HTML, XML or JSON format. The Controller is the “glue” that connects the model and the view and is where the business logic is applied. 
+                To build an MVC application from scratch is hard which is why most developers use a framework (checkout my <a href="./week8.html">Week 8 Brain Dump</a> for more info on frameworks). 
+                We were taught the Slim Framework for PHP. It is a lightweight un-opinionated framework and the main benefit it provided was routing; a way to map a URL to a particular piece of code. 
+                I managed to create a simple <em>To Do List App</em> with it which allowed you to add, edit and delete tasks.
+            </p>
+            <p>
+                We also covered REST, a design principle for developing APIs. I think <a href="https://www.youtube.com/embed/-MTSQjw5DrM">this video</a> explains it nicely.
+            </p>
+            <p>
+                The last bit of theory we covered was Continuous Integration and Continuous Delivery (CI/CD). 
+                This comes under the topic of DevOps and is about committing new code to production in small regular intervals and automating the processes along the way. 
+                It reduces the chances of “bad” code being pushed into production and reduces the amount of things code reviewers have to check. 
+            </p>
+            <p>
+                On Friday we started our 6th project. This was earlier than usual as we managed to cover all the theory and exercises by Thursday. 
+                The project was different from the previous ones we had undertaken as we would be working on an existing codebase - the iO Acadamy portal. 
+                Also I decided to volunteer to be Scrum Master. (For more details about what that entails you can check out my Week 4 Brain Dump). After our story estimation and planning sessions we decided to accept 4 stories. 
+                Story 1 was a bug about inconsistent error messages and inability to dismiss the success messages. Someone previously decided that papyrus was a suitable font but they did not apply this to every error message.
+                We decided to apply the default bootstrap styling to all error messages instead. Story 2 was another bug. When you deleted a trainer from the portal they still showed up as a check box option when you try to complete the Add Courses form.
+                Story 3 was technical debt. It would require us to reformat all date input fields in this structure: dd/mm/yyyy
+                Finally Story 4 was a new feature request. The Academy Admins wanted to have the ability to run some reporting on the applicant data.
+                We made a start on the first 2 stories in the afternoon and managed to complete 11 out of the 91 task points we had estimated.   
+            </p>
+        </div>
+    <footer>
+        <img id="pn-logo" src="../../assets/white-logo.png" alt="PN Logo">
+        <p>Connect with me:</p>
+        <a href="https://github.com/PNaing107" target="_blank">
+            <i class="fa-brands fa-square-github fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/phone-naing-92423a133" target="_blank">
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+        </a>
+        </div>
+    </footer>
+</body>
+</html>
