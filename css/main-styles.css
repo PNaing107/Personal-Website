@@ -242,9 +242,41 @@ footer {
     max-width: 5rem;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .style-64 {
         font-size: 24px;
-        /* min-width: 196px; */
+    }
+
+    .right-col {
+        margin: 0 auto;
+    }
+
+    #projects {
+        margin-bottom: 6rem;
+    }
+
+    a.style-28 {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .style-64 {
+        font-size: 24px;
+    }
+
+    #about, 
+    #blog, 
+    #projects {
+        justify-content: flex-start;
+    }
+
+    .skills-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    p {
+        text-align: center;
     }
 }
