@@ -15,7 +15,7 @@ body {
     background: #0D2233;
     font-family: "Exo","Lato", sans-serif;
     color: #FFFFFF;
-    text-align: center;
+    /* text-align: center; */
     width: 100vw;
     padding-left: 1rem;
     padding-right: 1rem;
